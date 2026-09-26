@@ -1,0 +1,30 @@
+{
+  "name": "arkjetlytics",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "start": "node .output/server/index.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@solidjs/meta": "^0.29.4",
+    "@solidjs/router": "^1.0.0",
+    "@solidjs/start": "^2.0.0",
+    "error-stack-parser": "2.1.4",
+    "nitro": "^3.0.260610-beta",
+    "solid-js": "^1.9.14",
+    "source-map-js": "1.2.1",
+    "vite": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.6",
+    "typescript": "5.9.3"
+  }
+}
